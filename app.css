@@ -447,4 +447,38 @@ span {
     background-color: #e63946;
 }
 
+.contact h2{
+    text-align: center;
+    color: #3a5a40;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 40%;
+    height: 30px;
+    border-radius:5px;
+    margin-left: 30%;
+    margin-right: 30%; 
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 40%;
+    height: 300px;
+    border-radius:10px;
+    margin-left: 30%;
+    margin-right:30%
+}
+
+button {
+    background-color:#fcbf49;
+    color: white;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 30px;
+    border-radius:5px;
+    margin-top: 20px;
+}
+
 
