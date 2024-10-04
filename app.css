@@ -7,10 +7,12 @@ body {
     border: 2px solid black;
     height: 150px;
     background-color: #e63946;
-    transform: skew(-20deg);
-    
+    transform: skew(-20deg);   
+}
 
-    
+.head {
+    display: flex;
+    margin-bottom: 10px;
 }
 
 .title:hover {
@@ -44,6 +46,24 @@ a {
     display: inline-block;
     font-size: 20px;
     font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.head .about a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+.nav {
+    position:inline-block;
+}
+
+.nav .index{
+    color: #e63946;
 }
 
 .nav .menuuuuu{
@@ -55,6 +75,9 @@ a {
 }
 
 
+.homepage img{
+    width: 100%;
+}
 
 .policy {
     background-color: #fcbf49;
@@ -292,10 +315,16 @@ footer {
     color: white;
     background-color: red;
     font-size: 15px;
+    
 }
 
 .nav {
     list-style-type:none;
+    display: flex;
+    justify-content:space-around;
+    padding: 15px;
+    margin: 10px;
+    width:700px;
 }
 
 .about {
@@ -310,7 +339,7 @@ footer {
     display: none;
     list-style-type:none;
     cursor: pointer;
-    width: 20%;
+    width: 300px;
     color: white;   
 }
 
@@ -388,7 +417,9 @@ span {
     width: 80%;
     background-color: #3a5a40;
     height: 300px;
-    margin:0 10%;
+    margin-top:10px;
+    margin-left: 10%;
+    margin-left: 10%;
 }
 
 .branches .headoffice h2{
@@ -409,7 +440,9 @@ span {
     width: 80%;
     background-color: #3a5a40;
     height: 300px;
-    margin:0 10%;
+    margin-top:10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .branches .osun h2{
@@ -430,7 +463,9 @@ span {
     width: 80%;
     background-color: #3a5a40;
     height: 300px;
-    margin:0 10%;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .branches .lagos h2{
@@ -479,6 +514,11 @@ button {
     height: 30px;
     border-radius:5px;
     margin-top: 20px;
+}
+
+i {
+    padding-top: 15px;
+    font-size: 40px;
 }
 
 

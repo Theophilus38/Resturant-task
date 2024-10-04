@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,45 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="app.css">
 </head>
+
 <body>
+    <div>
+        <ul class="nav">
+            <li><a href="index.html" class="index">Home</a></li>
+            <hr>
+            <li><a href="menu.html" class="menuuuuu">Menu</a></li>
+            <hr>
+            <li class="about">About Us
+                <ul class="nested-list">
+                    <li><a href="about.html">About Theophilus Foods</a></li>
+                    <hr>
+                    <li><a href="career.html">Career</a></li>
+                    <hr>
+                    <li><a href="location.html">Location</a></li>
+                    <hr>
+                </ul>
+            </li>
+            <hr>
+        </ul>
+    </div>
+
     <header class="contact">
         <h2>Send us a message</h2>
     </header>
 
     <main class="message">
-       <form action="/contact">
-        <label for="name"></label>
-        <input type="text" id="name" placeholder="Your name">
-        <label for="email"></label>
-        <input type="email" id="email" placeholder="Email">
-        <label for="number"></label>
-        <input type="number" id="number" placeholder="Telephone">
-        <label for="comment"></label>
-        <textarea name="comment" id="comment" placeholder="Comment"></textarea>
-        <button>Sumbit</button>
-       </form>
+        <form action="/contact">
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Your name">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email">
+            <label for="number"></label>
+            <input type="number" id="number" placeholder="Telephone">
+            <label for="comment"></label>
+            <textarea name="comment" id="comment" placeholder="Comment"></textarea>
+            <button>Sumbit</button>
+        </form>
     </main>
 </body>
+
 </html>
